@@ -55,18 +55,19 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "Build";
-var loaderUrl = buildUrl + "/fps test.loader.js";
+     var buildUrl = "Build/";
+var loaderUrl = buildUrl + "fps test.loader.js";
 var config = {
-  dataUrl: buildUrl + "/fps test.data",
-  frameworkUrl: buildUrl + "/fps test.framework.js",
-  codeUrl: buildUrl + "/fps test.wasm",
-  streamingAssetsUrl: "StreamingAssets",
+  dataUrl: buildUrl + "fps test.data",
+  frameworkUrl: buildUrl + "fps test.framework.js",
+  codeUrl: buildUrl + "fps test.wasm",
+  streamingAssetsUrl: buildUrl + "StreamingAssets",
   companyName: "DefaultCompany",
   productName: "Tag 2.0",
   productVersion: "0.1",
   showBanner: unityShowBanner,
 };
+
 
 
       // By default Unity keeps WebGL canvas render target size matched with
